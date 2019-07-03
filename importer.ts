@@ -1,2 +1,4 @@
-import sayHi = require('./exporter');
+import {sayHi, loopOutput}  from './exporter'
 sayHi();
+
+loopOutput();
